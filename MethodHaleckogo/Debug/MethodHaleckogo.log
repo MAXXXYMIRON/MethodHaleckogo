@@ -1,0 +1,15 @@
+﻿  MakeMatrix.cpp
+c:\users\knigh\desktop\mthodhaleckogo\methodhaleckogo\makematrix.cpp(13): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\knigh\desktop\mthodhaleckogo\methodhaleckogo\makematrix.cpp(30): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\knigh\desktop\mthodhaleckogo\methodhaleckogo\makematrix.cpp(43): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\knigh\desktop\mthodhaleckogo\methodhaleckogo\makematrix.cpp(45): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\knigh\desktop\mthodhaleckogo\methodhaleckogo\makematrix.cpp(61): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\knigh\desktop\mthodhaleckogo\methodhaleckogo\makematrix.cpp(63): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\knigh\desktop\mthodhaleckogo\methodhaleckogo\makematrix.cpp(65): warning C4244: =: преобразование "unsigned int" в "_Ty", возможна потеря данных
+          with
+          [
+              _Ty=float
+          ]
+c:\users\knigh\desktop\mthodhaleckogo\methodhaleckogo\makematrix.cpp(76): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\knigh\desktop\mthodhaleckogo\methodhaleckogo\makematrix.cpp(78): warning C4018: <: несоответствие типов со знаком и без знака
+  MethodHaleckogo.vcxproj -> C:\Users\KNIGH\Desktop\MthodHaleckogo\Debug\MethodHaleckogo.exe
