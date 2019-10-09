@@ -3,12 +3,14 @@
 
 using namespace std;
 
+
+
 /**
 	Выделение памяти под матрицу
 **/
-halec memoMatrix(unsigned RowCol)
+halecki memoMatrix(unsigned RowCol)
 {
-	halec Matrix;
+	halecki Matrix;
 	Matrix.resize(RowCol);
 	for (int i = 0; i < RowCol; i++)
 	{
@@ -20,25 +22,43 @@ halec memoMatrix(unsigned RowCol)
 /**
 	Перрегрузка функции
 	halec memoMatrix(unsigned RowCol);
-	Для сознания результирующих матриц
-	с одним столбцом
+	Флаг С - Выделение памяти под один столбец (Матрица С, Y и Х)
+	Флаг В - Выделение памяти под ступенчатую матрицу (Матрица В)
+	Флаг <Любой> - Выделение памяти под ступенчатую матрицу с едницами на главной диагонали (Матрица Т)
 **/
-halec memoMatrix(unsigned RowCol, bool flag)
+halecki memoMatrix(unsigned RowCol, char Flag)
 {
-	halec Matrix;
+	halecki Matrix;
 	Matrix.resize(RowCol);
-	for (int i = 0; i < RowCol; i++)
-	{
-		Matrix[i].resize(1);
-	}
+
+
+	if (Flag == 'C')
+		for (int i = 0; i < RowCol; i++)
+			Matrix[i].resize(1);
+
+	else if (Flag == 'B')
+		for (int i = 0; i < RowCol; i++)
+			Matrix[i].resize(i + 1);
+
+	else
+		for (int i = 0; i < RowCol; i++)
+		{
+			Matrix[i].resize(RowCol);
+			for (int j = 0; j <= i; j++)
+				Matrix[i][j] = (j == i) ? 1 : 0;
+		}
+
 	return Matrix;
 }
 
+
+
 /**
 	Инициализация матрицы
+	С помощью ввода
 **/
 
-halec initMatrix(halec NameMatrix)
+halecki initMatrix(halecki NameMatrix)
 {
 	for (int i = 0; i < NameMatrix.size(); i++)
 	{
@@ -56,7 +76,7 @@ halec initMatrix(halec NameMatrix)
 	Перегрузка initMatrix(Name, flag)
 	Для инициализации заданными значениями
 **/
-halec initMatrix(halec NameMatrix, bool flag)
+halecki initMatrix(halecki NameMatrix, bool flag)
 {
 	for (int i = 0; i < NameMatrix.size(); i++)
 	{
@@ -68,10 +88,12 @@ halec initMatrix(halec NameMatrix, bool flag)
 	return NameMatrix;
 }
 
+
+
 /**
-	Вывод вектора
+	Вывод матрицы
 **/
-void outMatrix(halec NameMatrix)
+void outMatrix(halecki NameMatrix)
 {
 	for (int i = 0; i < NameMatrix.size(); i++)
 	{

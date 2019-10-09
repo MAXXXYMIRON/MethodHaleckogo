@@ -1,35 +1,42 @@
 #pragma once
 #include <vector>
 
-typedef std::vector<std::vector<float>> halec;
+typedef std::vector<std::vector<float>> halecki;
+
+
 
 /**
 	Выделение памяти под матрицу
 **/
-halec memoMatrix(unsigned RowCol);
+halecki memoMatrix(unsigned RowCol);
 
 /**
-	Перрегрузка функции 
+	Перрегрузка функции
 	halec memoMatrix(unsigned RowCol);
-	Для сознания результирующих матриц
-	с одним столбцом
+	Флаг С - Выделение памяти под один столбец (Матрица С, Y и Х)
+	Флаг В - Выделение памяти под ступенчатую матрицу (Матрица В)
+	Флаг <Любой> - Выделение памяти под ступенчатую матрицу с едницами на главной диагонали (Матрица Т)
 **/
-halec memoMatrix(unsigned RowCol, bool flag);
+halecki memoMatrix(unsigned RowCol, char Flag);
+
+
 
 /**
 	Инициализация матрицы
+	C помощью ввода
 **/
-
-halec initMatrix(halec NameMatrix);
+halecki initMatrix(halecki NameMatrix);
 
 /**
 	Инициализация матрицы готовыми значениями
 	Перегрузка initMatrix(Name, flag)
 	Для инициализации заданными значениями
 **/
-halec initMatrix(halec NameMatrix, bool flag);
+halecki initMatrix(halecki NameMatrix, bool flag);
+
+
 
 /**
-	Вывод вектора
+	Вывод матрицы
 **/
-void outMatrix(halec NameMatrix);
+void outMatrix(halecki NameMatrix);
