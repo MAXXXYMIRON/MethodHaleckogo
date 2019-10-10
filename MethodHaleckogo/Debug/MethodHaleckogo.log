@@ -1,18 +1,42 @@
 ﻿  MainMethod.cpp
-  MakeMatrix.cpp
-c:\users\knigh\desktop\vich math\mthodhaleckogo\methodhaleckogo\makematrix.cpp(13): warning C4018: <: несоответствие типов со знаком и без знака
-c:\users\knigh\desktop\vich math\mthodhaleckogo\methodhaleckogo\makematrix.cpp(29): warning C4018: <: несоответствие типов со знаком и без знака
-c:\users\knigh\desktop\vich math\mthodhaleckogo\methodhaleckogo\makematrix.cpp(43): warning C4018: <: несоответствие типов со знаком и без знака
-c:\users\knigh\desktop\vich math\mthodhaleckogo\methodhaleckogo\makematrix.cpp(45): warning C4018: <: несоответствие типов со знаком и без знака
-c:\users\knigh\desktop\vich math\mthodhaleckogo\methodhaleckogo\makematrix.cpp(61): warning C4018: <: несоответствие типов со знаком и без знака
-c:\users\knigh\desktop\vich math\mthodhaleckogo\methodhaleckogo\makematrix.cpp(63): warning C4018: <: несоответствие типов со знаком и без знака
-c:\users\knigh\desktop\vich math\mthodhaleckogo\methodhaleckogo\makematrix.cpp(65): warning C4244: =: преобразование "unsigned int" в "_Ty", возможна потеря данных
+c:\users\knigh\desktop\vich math\mthodhaleckogo\methodhaleckogo\method_haleckogo.h(9): warning C4227: устаревший элемент: пропуск квалификаторов для ссылки
+c:\users\knigh\desktop\vich math\mthodhaleckogo\methodhaleckogo\method_haleckogo.h(13): warning C4227: устаревший элемент: пропуск квалификаторов для ссылки
+c:\users\knigh\desktop\vich math\mthodhaleckogo\methodhaleckogo\method_haleckogo.h(17): warning C4227: устаревший элемент: пропуск квалификаторов для ссылки
+c:\users\knigh\desktop\vich math\mthodhaleckogo\methodhaleckogo\method_haleckogo.h(24): warning C4227: устаревший элемент: пропуск квалификаторов для ссылки
+c:\users\knigh\desktop\vich math\mthodhaleckogo\methodhaleckogo\method_haleckogo.h(28): warning C4227: устаревший элемент: пропуск квалификаторов для ссылки
+c:\users\knigh\desktop\vich math\mthodhaleckogo\methodhaleckogo\method_haleckogo.h(35): warning C4227: устаревший элемент: пропуск квалификаторов для ссылки
+c:\users\knigh\desktop\vich math\mthodhaleckogo\methodhaleckogo\method_haleckogo.h(39): warning C4227: устаревший элемент: пропуск квалификаторов для ссылки
+c:\users\knigh\desktop\vich math\mthodhaleckogo\methodhaleckogo\method_haleckogo.h(46): warning C4227: устаревший элемент: пропуск квалификаторов для ссылки
+c:\users\knigh\desktop\vich math\mthodhaleckogo\methodhaleckogo\mainmethod.cpp(28): warning C4305: инициализация: усечение из "double" в "_Ty"
           with
           [
               _Ty=float
           ]
-c:\users\knigh\desktop\vich math\mthodhaleckogo\methodhaleckogo\makematrix.cpp(76): warning C4018: <: несоответствие типов со знаком и без знака
-c:\users\knigh\desktop\vich math\mthodhaleckogo\methodhaleckogo\makematrix.cpp(78): warning C4018: <: несоответствие типов со знаком и без знака
-  Method_HALECKOGO.cpp
+c:\users\knigh\desktop\vich math\mthodhaleckogo\methodhaleckogo\mainmethod.cpp(30): warning C4305: инициализация: усечение из "double" в "_Ty"
+          with
+          [
+              _Ty=float
+          ]
+  MakeMatrix.cpp
+c:\users\knigh\desktop\vich math\mthodhaleckogo\methodhaleckogo\makematrix.cpp(15): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\knigh\desktop\vich math\mthodhaleckogo\methodhaleckogo\makematrix.cpp(36): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\knigh\desktop\vich math\mthodhaleckogo\methodhaleckogo\makematrix.cpp(40): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\knigh\desktop\vich math\mthodhaleckogo\methodhaleckogo\makematrix.cpp(44): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\knigh\desktop\vich math\mthodhaleckogo\methodhaleckogo\makematrix.cpp(48): warning C4244: =: преобразование "int" в "_Ty", возможна потеря данных
+          with
+          [
+              _Ty=float
+          ]
+c:\users\knigh\desktop\vich math\mthodhaleckogo\methodhaleckogo\makematrix.cpp(63): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\knigh\desktop\vich math\mthodhaleckogo\methodhaleckogo\makematrix.cpp(65): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\knigh\desktop\vich math\mthodhaleckogo\methodhaleckogo\makematrix.cpp(81): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\knigh\desktop\vich math\mthodhaleckogo\methodhaleckogo\makematrix.cpp(83): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\knigh\desktop\vich math\mthodhaleckogo\methodhaleckogo\makematrix.cpp(85): warning C4244: =: преобразование "unsigned int" в "_Ty", возможна потеря данных
+          with
+          [
+              _Ty=float
+          ]
+c:\users\knigh\desktop\vich math\mthodhaleckogo\methodhaleckogo\makematrix.cpp(98): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\knigh\desktop\vich math\mthodhaleckogo\methodhaleckogo\makematrix.cpp(100): warning C4018: <: несоответствие типов со знаком и без знака
   Создание кода...
   MethodHaleckogo.vcxproj -> C:\Users\KNIGH\Desktop\Vich Math\MthodHaleckogo\Debug\MethodHaleckogo.exe

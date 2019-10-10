@@ -6,15 +6,15 @@
 /**
 	Выичсление элементов матрицы В и Т
 **/
-void intiBandT(halecki& const MatixA, halecki& MatrixB, halecki& MatrixT);
+void intiBandT(halecki& const MatrixA, halecki& MatrixB, halecki& MatrixT);
 /**
 	Вычисление элемнта матрицы В
 **/
-int elementB(int Row, int Col, halecki& const MatixA, halecki& const MatrixB, halecki& const MatrixT);
+float elementB(int Row, int Col, halecki& const MatrixA, halecki& const MatrixB, halecki& const MatrixT);
 /**
 	Вычисление элемнта матрицы Т
 **/
-int elementT(int Row, int Col, halecki& const MatixA, halecki& const MatrixB, halecki& const MatrixT);
+float elementT(int Row, int Col, halecki& const MatrixA, halecki& const MatrixB, halecki& const MatrixT);
 
 
 
@@ -25,22 +25,22 @@ halecki initY(halecki& const MatrixB, halecki& const MatrixC);
 /**
 	Вычисление элемента матрицы Y
 **/
-int elementY(int Row, halecki& const MatrixB, halecki& const MatrixC);
+float elementY(int Row, halecki& const MatrixB, halecki& const MatrixC, halecki& const MatrixY);
 
 
 
 /**
 	Вычисление элементов матрицы Х
 **/
-halecki initX(halecki& const A, halecki& const C);
+halecki initX(halecki& const MatrixT, halecki& const MatrixY);
 /**
 	Вычисление элемента матрицы Х
 **/
-int elementX(int Row, halecki& const A, halecki& const C);
+float elementX(int Row, halecki& const MatrixT, halecki& const MatrixY, halecki& const MatrixX);
 
 
 
 /**
 	Получение результата
 **/
-halecki methodHalecki(halecki& const MatixA, halecki& const MatrixC);
+halecki methodHalecki(halecki& const MatrixA, halecki& const MatrixC);
